@@ -1,0 +1,50 @@
+Return-Path: <cert@abuse.io>
+X-Footer: YWJ1c2UuaW8=
+Received: from aite-web2.abuse.io ([10.0.1.92])
+	by srv.abuse.io (Kerio Connect 9.2.6 patch 2) with ESMTP
+	for cert@abuse.io;
+	Tue, 10 Jul 2018 22:21:22 +0200
+Received: from aite-web2 (localhost [IPv6:::1])
+	by aite-web2.abuse.io (Postfix) with ESMTP id 7B25930A3
+	for <cert@abuse.io>; Tue, 10 Jul 2018 22:21:22 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=abuse.io; s=aite;
+	t=1531254082; bh=jOGNSGRHNABhOB6xLBFJEwuf2HJdM6mj9YwDFomRIFY=;
+	h=Date:To:From:Subject:From;
+	b=l1A5iAE/aEQb+UnjFcpTVD5M6ravtt8zXQIgCoE1zepvDuO+2JpJ3RenhmQohq4ob
+	 7EiREtefww3Cc1gEuOz8lt+F6V29LDV9PJV/QcfdWz1brdD98uqNyXskvbrMN0KC/S
+	 x0TR6GKcP9HrkMUsNorUI19HwgBhi2qhX4Qvxgu8=
+Date: Tue, 10 Jul 2018 20:21:22 +0000
+To: AITE-Feeder <cert@abuse.io>
+From: AbuseIO CERT - AITE <cert@abuse.io>
+Subject: AITE Notification
+Message-ID: <a4uthJfpK4FH7ICMgigiEfB06LoOr5T86ONjxK3gs@aite-web2>
+X-Mailer: PHPMailer 6.0.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_a4uthJfpK4FH7ICMgigiEfB06LoOr5T86ONjxK3gs"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+--b1_a4uthJfpK4FH7ICMgigiEfB06LoOr5T86ONjxK3gs
+Content-Type: text/plain; charset=us-ascii
+
+This is an AITE notification, the report is attached as a GZipped JSON file.
+
+--b1_a4uthJfpK4FH7ICMgigiEfB06LoOr5T86ONjxK3gs
+Content-Type: application/octet-stream; name="report.json.gz"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=report.json.gz
+
+H4sIAAAAAAAAA6VSXW/iMBD8L349CHYSIMnTcRzVRcdHVaDoJKTIOCaxCrZlGyiq+O9dE9pD18eL
+ZEXeHe/O7Owbso66g0UZmgzG+TCfLeeohZiSW1FyyTjK+t0W2lHrioMuqeMlQENMkjbutwlehDjD
+JIt63zB88LLklhmhnVASgA+U8Y1SL5BwZw3F0PIph4s24kjZubgFn/N5/mM8goThR8FPxSepp9Fz
+PlqNfhaD5WI2GSzy4WA8/gNAIUvBqFMGZW/3F1Q7p2227qw7VFt20BUPgNmJb2oFVbUOmNqvOztV
+CRnoWv/LTHh9JI1SHIZRFPaTbtxL0cVT5kzYRtZy+ns6W009X3oq/q+7OkneiLh2xlEvhtOPCA5j
+TAAg6d7Te6yFrRdUvjxw8KCF+J6KHcRdbTjY8spqKiv+3R60VsYF29vkfUNP39bU8GLHj9w/Wv3K
+F6MvanuEJAkOIU7LkpfFVeud1zjKcDeLyYfXFqoZ4c6Ami/nj5/bw6URrN5z6awXViqgKgvG3M63
+G84mfk+a4E3clxn9RQAVw63fBRJ3AxIH/pd0PXldUNtQjFNyi4BNW/F6j44DvO6EUZPeVJqpg3TG
+k56Om6DhVeMrLC7sPPuobUUlvYrrjNKojdM2OHK5vANdwsL7NQMAAA==
+
+--b1_a4uthJfpK4FH7ICMgigiEfB06LoOr5T86ONjxK3gs--
+
+
