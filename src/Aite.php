@@ -86,7 +86,7 @@ class Aite extends Parser
                                     $incident->ip          = $report['enrichments']['domain_address'];
                                     $incident->domain      = $report['enrichments']['domain_name'];
                                     break;
-                                case: 'IP_ADDRESS':
+                                case 'IP_ADDRESS':
                                     $incident->ip          = $report['raw_indicator'];
                                     break;
 
