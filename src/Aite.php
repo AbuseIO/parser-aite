@@ -88,7 +88,7 @@ class Aite extends Parser
                                 break;
                             }
 
-                            unset($report['enrichments']);
+                            //unset($report['enrichments']);
                             unset($report['owner']);
                             $incident->information = json_encode($report);
 
