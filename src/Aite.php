@@ -83,8 +83,8 @@ class Aite extends Parser
 
                             switch($report['type']) {
                                 case 'URI':
-                                    $incident->ip          = $report['enrichments']['domain_address']);;
-                                    $incident->domain      = $report['enrichments']['domain_name']);
+                                    $incident->ip          = $report['enrichments']['domain_address'];
+                                    $incident->domain      = $report['enrichments']['domain_name'];
                                 break;
                             }
 
