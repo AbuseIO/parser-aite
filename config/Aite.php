@@ -4,7 +4,7 @@ return [
     'parser' => [
         'name'          => 'Aite',
         'enabled'       => true,
-        'file_regex'    => "~(?:\d{4})-(?:\d{2})-(?:\d{2})-(.*)-[^\-]+-[^\-]+.json~i",
+        'file_regex'    => "~report\.json\.gz~i",
         'sender_map'    => [
             '/cert@abuse.io/',
         ],
