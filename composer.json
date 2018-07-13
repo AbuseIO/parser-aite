@@ -1,7 +1,7 @@
 {
     "name": "abuseio/parser-aite",
     "description": "Parser addon for handling notifications from aite",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "keywords": ["laravel", "abuseio", "parser", "aite"],
     "homepage": "http://abuse.io",
     "type": "library",

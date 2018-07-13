@@ -46,7 +46,7 @@ class Aite extends Parser
             if (strpos($attachment->filename, '.gz') !== false
                 && $attachment->contentType == 'application/octet-stream'
             ) {
-                $report = json_decode($attachment->getContent(), true);
+                $report = json_decode(gzdecode($attachment->getContent()), true);
 
                 if (json_last_error() === JSON_ERROR_NONE) {
 
