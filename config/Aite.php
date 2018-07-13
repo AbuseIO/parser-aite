@@ -16,7 +16,7 @@ return [
 
     'feeds' => [
          'THREAT_ALERT' => [
-             'class'     => 'THREAT_ALERT',
+             'class'     => 'DEFAULT',
              'type'      => 'ABUSE',
              'enabled'   => true,
              'fields'    => [
